@@ -1,3 +1,6 @@
+#further reference：
+# http://blog.csdn.net/kenden23/article/details/17377869
+
 """
 You are climbing a stair case. It takes n steps to reach to the top.
 
