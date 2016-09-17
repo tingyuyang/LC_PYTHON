@@ -9,6 +9,12 @@ Given input array nums = [1,1,2],
 Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length.
 
 Subscribe to see which companies asked this question
+
+my analysis:
+do not need to remove the duplicated item, can just exchange the next non repeated item:
+[1,1,2] ->>>> [1,2,1]
+最后还是用了网上的方法，本来自己想从最后往前算，但是[1,1,1,2],这样就不行
+网上方法死也看不懂，最终还是自己在纸上实践才真正懂了。
 """
 class Solution:
     def removeDuplicates(self, n):
