@@ -27,7 +27,7 @@ def patching(nums,n):
 	i=0
 	miss=1
 	while miss<=n:
-		if i<=len(nums) and nums[i]<=miss:
+		if i<len(nums) and nums[i]<=miss: #*****remember i"<"len, instead of "<="
 			miss+=nums[i]
 			i=i+1
 		else:
