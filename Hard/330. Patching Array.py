@@ -22,6 +22,7 @@ Return 0.
 
 #so basically, the individual element or the sum of those element should have result like->1,2,3,4,5,6,.....n.
 
+#complexity: O(n)
 def patching(nums,n):
 	count=0
 	i=0
