@@ -27,7 +27,7 @@ def patching(nums,n):
 			miss+=nums[i]
 			i=i+1
 		else:
-			print("the patch element should be:",miss) 
+			print("the patch element should be:",miss)  #this line can help print out the which element will be added:)
 			miss += miss
 			count += 1
 	return count
