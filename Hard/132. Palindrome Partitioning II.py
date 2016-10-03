@@ -9,10 +9,6 @@ Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 
 #thoughts:http://blog.csdn.net/ljphhj/article/details/22573983
 class Solution(object):
     def minCut(self, input):
-        """
-        :type s: str
-        :rtype: int
-        """
         l=len(input)
     	if(input==None or l==0):
     		return 0
