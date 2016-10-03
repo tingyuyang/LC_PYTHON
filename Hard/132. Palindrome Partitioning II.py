@@ -6,7 +6,7 @@ Return the minimum cuts needed for a palindrome partitioning of s.
 For example, given s = "aab",
 Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 cut.
 """
-#thoughts:http://blog.csdn.net/ljphhj/article/details/22573983
+#Reference: http://blog.csdn.net/ljphhj/article/details/22573983
 class Solution(object):
     def minCut(self, input):
         l=len(input)
