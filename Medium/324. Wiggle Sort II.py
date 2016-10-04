@@ -14,6 +14,7 @@ after wiggle [3,6,2,5,1,4]
 
 Also, need to consider the possiblity when --->len(result)=7,9,11(ODD number)
 """
+#with Complexity of O(nlogn)<<<<<<<<<<<
 class Solution(object):
     def wiggleSort(self, result):
         """
