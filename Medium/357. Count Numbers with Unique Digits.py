@@ -20,3 +20,18 @@ print(count(5))
 
 #the list is: [1, 10, 91, 739, 5275, 32491...]
 #The plus is: [0, 9, 81, 648, 4536, 27216...]----->[0, 9, 9*9, 9*9*8.....]       9*9*8=648
+
+#i did it again,partially different
+def count(n):
+	result=[1,10,91]
+	nines=[0,1,9]
+	i=3
+	nextResult=result[i-1]
+	while i <=n:
+		nextNine=nines[i-1]*(9-i+2)
+		nines.append(nextNine)
+		nextResult+=9*nines[i]
+		result.append(nextResult)
+		i+=1
+	return result[n]
+print(count(4))
