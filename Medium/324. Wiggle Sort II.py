@@ -7,14 +7,13 @@ Example:
 (2) Given nums = [1, 3, 2, 2, 3, 1], one possible answer is [2, 3, 1, 3, 1, 2].
 """
        
-# FINAL SOLUTION
+# FINAL SOLUTION #with Complexity of O(nlogn)<<<<<<<<<<< coz of SORT
 """
 after sort [1,2,3|4,5,6] <-slice into half, put into resultList from end for both half
 after wiggle [3,6,2,5,1,4]
 
 Also, need to consider the possiblity when --->len(result)=7,9,11(ODD number)
 """
-#with Complexity of O(nlogn)<<<<<<<<<<<
 class Solution(object):
     def wiggleSort(self, result):
         """
