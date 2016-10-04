@@ -12,7 +12,7 @@ class Solution(object):
         l=len(input)
     	if(input==None or l==0):
     		return 0
-    	cuts=[]
+    	cuts=[] #cuts as dynamic programming here
     	
     	#form a matrix with "l*l", set all value to FALSE
     	matrix=[[False for i in range(l)]for j in range(l)]
