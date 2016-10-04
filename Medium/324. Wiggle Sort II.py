@@ -6,7 +6,7 @@ Example:
 (1) Given nums = [1, 5, 1, 1, 6, 4], one possible answer is [1, 4, 1, 5, 1, 6]. 
 (2) Given nums = [1, 3, 2, 2, 3, 1], one possible answer is [2, 3, 1, 3, 1, 2].
 """
-#kinda confused, coz they did not tell me whats the specific order they want....
+#kinda confused, coz they did not tell me whats the specific order they want?....
 class Solution(object):
     def wiggleSort(self, result):
         """
