@@ -7,7 +7,7 @@ Example:
 (2) Given nums = [1, 3, 2, 2, 3, 1], one possible answer is [2, 3, 1, 3, 1, 2].
 """
        
-#final solution
+# FINAL SOLUTION
 """
 after sort [1,2,3|4,5,6] <-slice into half, put into resultList from end for both half
 after wiggle [3,6,2,5,1,4]
