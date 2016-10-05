@@ -21,7 +21,7 @@ class Solution(object):
         	countList.append(count)
         return(countList)
     
-#Merge sort(值得再看下Merge)
+#Merge sort(值得再看下****Merge)
 def countSmaller(nums):
     def merge_sort(enums):
         mid = int(len(enums)/2)
