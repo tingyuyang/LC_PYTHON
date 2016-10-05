@@ -3,6 +3,7 @@ Given an unsorted array nums, reorder it in-place such that nums[0] <= nums[1] >
 
 For example, given nums = [3, 5, 2, 1, 6, 4], one possible answer is [1, 6, 2, 5, 3, 4].
 """
+#first thought, based on wiggle sort ii, complexity: O(nlogn)
 list=[3, 5, 2, 1, 6, 4]
 def wiggle(list):
 	list.sort()
@@ -21,7 +22,7 @@ def wiggle(list):
 	return(result)
 print(wiggle(list))
 
-#with less space
+#with less space & complexity, O(n), do not need to store into 【new list】, and dont need to 【sort】method
 nums=[1,2,3,4,5]
 def wiggle(nums):
     for i in range(1,len(nums)):
