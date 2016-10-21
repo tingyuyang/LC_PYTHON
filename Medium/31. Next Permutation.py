@@ -7,8 +7,8 @@
 	ii. if not, it means the list already dictionary end.
 	    reverse the list
 2. find j between in list[i:end]
-	which list[j]>list[i]          	     (e.g. 5231), list[i] =2, list[j] =3
-	switch list[j] and list[i]		=>[5,3,2,1]
+	- which list[j]>list[i]          	     (e.g. 5231), list[i] =2, list[j] =3
+	- switch list[j] and list[i]		=>[5,3,2,1]
 3. 
 """
 list=[5,2,3,1] #->[5,3,1,2] is correct
