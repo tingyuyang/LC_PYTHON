@@ -13,6 +13,7 @@
 	list[i+1:]=sorted(list[i+1:])
 """
 #---------------------------------------------SOLUTION 1
+list=[5,2,3,1] #->[5,3,1,2] is correct
 def nextPermutation(list):
 	checkBreak= False
 	for i in range(len(list)-2,-1,-1):
@@ -26,6 +27,7 @@ def nextPermutation(list):
 		if list[j]>list[i]:
 			list[i],list[j]=list[j],list[i]
 			break
+	#=>[5,3,2,1]
 	list[i+1:]=sorted(list[i+1:])
 	return list
 print(nextPermutation(list))
