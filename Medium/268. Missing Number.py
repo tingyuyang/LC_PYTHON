@@ -9,9 +9,9 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 """
 #My analysis:
 """
-This is such a weird question.....
-if input is[0,1], you need to return 2.....like WHY?
-the question did not ask on POINT...****like WHAT EXACTLY ARE U ASKING HERE?!****   
+This is such a weird question.
+if input is[0,1], you need to return 2.....BUT WHY?
+the question did not ask on POINT, ****like WHAT EXACTLY ARE U ASKING HERE?!****   
 
 so simple math used here (首项 + 末项) * 项数 / 2
 NOTICE:the input might not be in order
