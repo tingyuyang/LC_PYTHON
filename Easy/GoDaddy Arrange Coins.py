@@ -9,7 +9,7 @@ Returns = 2 , as stair 2 contain equal number of coins as of stair number.
 
 don't understand? Check wiki
 https://en.wikipedia.org/wiki/Triangular_number
-
+(the section in the end "Triangular roots and tests for triangular numbers")
 it gives u the function to judge if the input number is triangular number:
 triNum=[math.sqrt(8*n+1)-1]//2
 
