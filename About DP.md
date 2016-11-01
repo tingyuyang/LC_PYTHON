@@ -1,4 +1,6 @@
 #Dynamic Programming
+
+NOTHING FANCY REALLY
 * It's mostly use f(x) represent function to find the pattern of the question.
 * dp(x) is used to replace f(x) in order to represent dynamic programming better
 * [Awesome Reference](http://www.qiujiawei.com/leetcode-problem-198/)
