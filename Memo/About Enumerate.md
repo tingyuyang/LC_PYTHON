@@ -6,7 +6,7 @@ nums=[1,2,1,4,5]
 for i,nums[i] in enumerate(nums): 
    print (i ,nums[i])
 ```
-* print out:
+print out:
 ```
 0 1
 1 2
@@ -23,7 +23,7 @@ for i, num in enumerate(nums):
 	print(num,i)
 print(vis)
 ```
-Print Out:
+print out:
 ```
 1 0
 2 1
