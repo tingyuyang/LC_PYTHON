@@ -26,3 +26,20 @@ class Solution(object):
     		dp[i]=max(dp[i-1],dp[i-2]+nums[i-1])
     		#f(3) = max(nums[1], nums[0] + nums[2])
     	return dp[size]
+
+#because we're not required to print out the whole dp list, we can have another solution w/ LESS SPACE complexity
+class Solution(object):
+    def rob(self, nums):
+        size = len(nums)
+    	if size==0:
+    		return 0 
+    	elif size==1:
+    		return nums[0]
+    	pre=0 
+    	cur=0 
+    	temp=-1 
+    	for i in range(0,size):
+    		temp=cur
+    		cur=max(nums[i]+pre,cur)
+    		pre=temp
+    	return cur
