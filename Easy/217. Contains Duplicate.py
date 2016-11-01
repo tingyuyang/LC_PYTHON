@@ -11,6 +11,7 @@ class Solution(object):
         return False
 
 # Use Hash:
+# Hash set more specifically
 class Solution(object):
     def containsDuplicate(self, nums):
         vis =set()
