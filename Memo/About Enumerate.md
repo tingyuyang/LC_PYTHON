@@ -1,6 +1,6 @@
 # Enumerate
 
-Simple example:
+## Example 1:
 ```
 nums=[1,2,1,4,5]
 for i,nums[i] in enumerate(nums): 
@@ -13,4 +13,25 @@ for i,nums[i] in enumerate(nums):
 2 1
 3 4
 4 5
+```
+## Example 2
+```
+nums=[1,2,3,4,5]
+def dupl(nums,k):
+	vis = {}
+	for i, num in enumerate(nums):
+		vis[num] = i
+		print(num,i)
+	print(vis)
+	return False
+print(dupl(nums,2))
+```
+Print Out:
+```
+1 0
+2 1
+3 2
+4 3
+5 4
+{1: 0, 2: 1, 3: 2, 4: 3, 5: 4}
 ```
