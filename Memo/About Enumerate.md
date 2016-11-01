@@ -3,8 +3,8 @@
 Simple example:
 ```
 nums=[1,2,1,4,5]
-for index,nums[index] in enumerate(nums): 
-   print (index ,nums[index])
+for i,nums[i] in enumerate(nums): 
+   print (i ,nums[i])
 ```
 * print out:
 ```
