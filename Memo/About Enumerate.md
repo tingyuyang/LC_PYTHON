@@ -17,14 +17,11 @@ for i,nums[i] in enumerate(nums):
 ## Example 2
 ```
 nums=[1,2,3,4,5]
-def dupl(nums,k):
-	vis = {}
-	for i, num in enumerate(nums):
-		vis[num] = i
-		print(num,i)
-	print(vis)
-	return False
-print(dupl(nums,2))
+vis = {}
+for i, num in enumerate(nums):
+	vis[num] = i
+	print(num,i)
+print(vis)
 ```
 Print Out:
 ```
