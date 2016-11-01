@@ -1,7 +1,7 @@
 # Enumerate
 
 ## Example 1:
-```
+```python
 nums=[1,2,1,4,5]
 for i,nums[i] in enumerate(nums): 
    print (i ,nums[i])
@@ -15,7 +15,7 @@ for i,nums[i] in enumerate(nums):
 4 5
 ```
 ## Example 2
-```
+```python
 nums=[1,2,3,4,5]
 vis = {}
 for i, num in enumerate(nums):
