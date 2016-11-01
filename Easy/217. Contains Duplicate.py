@@ -9,3 +9,13 @@ class Solution(object):
             if nums[i]==nums[i-1]:
                 return True
         return False
+
+# Use Hash:
+class Solution(object):
+    def containsDuplicate(self, nums):
+        vis =set()
+    	for n in nums:
+    		if n in vis:
+    			return True
+    		vis.add(n)
+    	return False
