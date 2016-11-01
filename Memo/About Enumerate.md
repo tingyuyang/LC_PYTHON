@@ -1,6 +1,6 @@
 # Enumerate
 
-### Example 1:
+## Example 1:
 ```
 nums=[1,2,1,4,5]
 for i,nums[i] in enumerate(nums): 
@@ -14,7 +14,7 @@ for i,nums[i] in enumerate(nums):
 3 4
 4 5
 ```
-### Example 2
+## Example 2
 ```
 nums=[1,2,3,4,5]
 vis = {}
