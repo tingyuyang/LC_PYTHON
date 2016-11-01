@@ -4,10 +4,6 @@ Your function should return true if any value appears at least twice in the arra
 """
 class Solution(object):
     def containsDuplicate(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: bool
-        """
         nums.sort()
         for i in range(1,len(nums)):
             if nums[i]==nums[i-1]:
