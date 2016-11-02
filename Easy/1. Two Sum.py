@@ -19,4 +19,4 @@ class Solution(object):
     		if rest in vis:
     			return vis[rest],i 
     		vis[n]=i
-#vis={2: 2, 11: 0, 15: 1}, it will put n in order.(本应该是{11: 0, 15: 1，2: 2, }，但因为2最小所以往前放了)
+#vis={2: 2, 11: 0, 15: 1}
