@@ -6,6 +6,7 @@
   * [Two Sum](https://github.com/tingyuyang/python_lc/blob/master/Easy/1.%20Two%20Sum.py)
 * [About Set](https://github.com/tingyuyang/python_lc/blob/master/Memo/About%20Set.md)
 	* [Information about "Set()" in Python](http://www.learnpython.org/en/Sets)
+* [About enumerate](https://github.com/tingyuyang/python_lc/blob/master/Memo/About%20Enumerate.md)
 
 
 ## E.g.1
