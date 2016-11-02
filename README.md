@@ -10,3 +10,4 @@ Always better to write on paper, than thinking in your head!!!
 * [My analysis of DP](https://github.com/tingyuyang/python_lc/blob/master/Memo/About%20DP.md)
 * [My analysis of Hash](https://github.com/tingyuyang/python_lc/blob/master/Memo/About%20Hash.md)
   * [About Set](https://github.com/tingyuyang/python_lc/blob/master/Memo/About%20Set.md)
+  * [About enumerate](https://github.com/tingyuyang/python_lc/blob/master/Memo/About%20Enumerate.md)
