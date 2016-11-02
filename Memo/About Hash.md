@@ -6,13 +6,17 @@
 * [Information about "Set()" in Python](http://www.learnpython.org/en/Sets)
 
 ## Example 1
+```python 
+s= "anagram"
+a=set(s)
+print(a) #{'r', 'g', 'm', 'n', 'a'}
+```
+## Example 2
 ```python
 s= "anagram"
 vis= {}
 for i, l in enumerate(s):
 	vis[l]=i 
-print(vis)
+print(vis) #{'n': 1, 'g': 3, 'r': 4, 'm': 6, 'a': 5}
 ```
-```
-{'n': 1, 'g': 3, 'r': 4, 'm': 6, 'a': 5}
-```
+
