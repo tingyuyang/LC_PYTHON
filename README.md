@@ -5,3 +5,4 @@ Real practice on paper is waaaay more better than read online solution!!!!
 * [Space Complexity](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 * [My analysis of DP](https://github.com/tingyuyang/python_lc/blob/master/Memo/About%20DP.md)
 * [My analysis of Hash](https://github.com/tingyuyang/python_lc/blob/master/Memo/About%20Hash.md)
+  * [About Set](https://github.com/tingyuyang/python_lc/blob/master/Memo/About%20Set.md)
