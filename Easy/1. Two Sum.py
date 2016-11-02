@@ -4,11 +4,12 @@ Given an array of integers, return indices of the two numbers such that they add
 You may assume that each input would have exactly one solution.
 
 Example:
-Given nums = [2, 7, 11, 15], target = 9,
+Given nums = [11, 15, 2, 7], target = 9,
 
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 """
+#因为题只要求2个数，所以简单很多！
 #Hash Table.Time: O(n), Space:O(n)
 class Solution(object):
     def twoSum(self, nums, target):
@@ -16,5 +17,6 @@ class Solution(object):
     	for i, n in enumerate(nums):
     		rest =target-n
     		if rest in vis:
-    			return vis[rest],i #因为题只要求2个数，所以简单很多！
+    			return vis[rest],i 
     		vis[n]=i
+#vis={2: 2, 11: 0, 15: 1}, it will put n in order.(本应该是{11: 0, 15: 1，2: 2, }，但因为2最小所以往前放了)
