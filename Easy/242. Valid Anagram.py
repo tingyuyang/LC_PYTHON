@@ -24,6 +24,7 @@ class Solution(object):
     def isAnagram(self, s, t):
         return sorted(s)==sorted(t)
 
+    
 # Still O(n log n)
 def isAnagram(self, s, t):
         from collections import Counter
