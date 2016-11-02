@@ -26,6 +26,7 @@ for i, num in enumerate(nums):
 	vis[num] = i
 	print(num,i)
 print(vis)
+
 #Print out:
 """
 1 0
