@@ -9,7 +9,7 @@
 ```python 
 s= "anagram"
 a=set(s)
-print(a) #{'r', 'g', 'm', 'n', 'a'}
+print(a) #{'r', 'g', 'm', 'n', 'a'} ****the order of the print out will be different each time!!
 ```
 ## Example 2
 ```python
