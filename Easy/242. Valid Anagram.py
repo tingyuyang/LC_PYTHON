@@ -19,4 +19,8 @@ class Solution(object):
             if a[i]!=b[i]:
                 return False
         return True
-            
+
+# Still O(n log n)
+def isAnagram(self, s, t):
+        from collections import Counter
+        return Counter(s) == Counter(t)
