@@ -8,7 +8,7 @@ s = "rat", t = "car", return false.
 ***so t is in another order of the letter in s, but same letter exactly
 """
 
-#O(n log n)
+#O(n log n) (:((()
 class Solution(object):
     def isAnagram(self, s, t):
         if len(s)!=len(t):
